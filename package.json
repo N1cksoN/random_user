@@ -1,0 +1,20 @@
+{
+  "name": "pidor-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "helpers": "0.0.6",
+    "mongoose": "^5.9.24",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.4",
+    "telegraf": "^3.38.0"
+  }
+}
